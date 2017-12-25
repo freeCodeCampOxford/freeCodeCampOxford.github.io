@@ -150,7 +150,7 @@ Having a good guideline for creating commits and sticking to it makes working wi
 [Visit Codecademy for free Git practice](https://www.codecademy.com/learn/learn-git)
 
 
-You can search for ```live server``` for your text editor.
+You can search for ```live server``` for your text editor for more comfortable development.
 
 Here are the most popular ones: 
  - [VSCode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) 
