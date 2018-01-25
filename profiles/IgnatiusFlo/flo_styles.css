@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(https://fonts.googleapis.com/css?family=Macondo);
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Josefin Slab";
+  background: transparent;
+}
+
+#header {
+  background: url("https://scontent-lhr3-1.xx.fbcdn.net/v/t1.0-9/20292612_10154633632247665_5290440019159856498_n.jpg?oh=f9aae4661cbf636a086d970df9cbfd4b&oe=5AFADD71") no-repeat center top;
+  background-size: cover;
+  position: fixed;
+  height: 90%;
+  bottom: 10%;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#header .center {
+  background: linear-gradient(to right, #191970, rgba(0, 0, 0, 0));
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  color: #e6e68f;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
+#header .center .middle {
+  position: absolute;
+  margin-top: -8em;
+  right: 0;
+  left: 0;
+  top: 50%;
+}
+
+#header .center .middle h1 {
+  font-family: "Macondo";
+  font-weight: bold;
+  line-height: 1em;
+  font-size: 15vw;
+  margin: 0;
+}
+
+#header .center .middle span {
+  line-height: 5em;
+  font-size: 1.6vw;
+  font-weight: bold;
+}
+
+#pageHr {
+  background: #FFFFFF;
+  position: relative;
+  height: 5px;
+  display: block;
+  right: 0px;
+  left: 0px;
+  top: 90%;
+  z-index: 1;
+}
+
+#pageHr > i {
+  margin: -25px;
+  border: 5px solid #FFFFFF;
+  height: 40px;
+  width: 40px;
+  background: #191970;
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 50%;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#pageHr > i > i {
+  line-height: 36.8px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  position: absolute;
+  color: #FFFFFF;
+  display: block;
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#page {
+  background: linear-gradient(to right, #191970, #451970);
+  position: relative;
+  top: 90%;
+  padding: 2% 5px;
+}
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  height: 100%;
+  grid-gap: 5px;
+  grid-template: 60px 60px auto 40px/repeat(12, 1fr);
+  grid-template-areas: ". g g g g . . c c c c . " "t t t t t t x x x x x x" "t t t t t t x x x x x x" "a a a a a a a a a a a a" "f f f f f f f f f f f f";
+}
+
+.button_g {
+  grid-area: g;
+  color: #e6e68f;
+  background-color: green;
+  text-align: center;
+}
+
+.button_c {
+  grid-area: c;
+  color: #e6e68f;
+  background-color: green;
+  text-align: center;
+}
+
+.both_buttons {
+  width: 12px;
+  height: 12px;
+  line-height: 10px;
+  color: green;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.text_left {
+  grid-area: t;
+  color: #e6e68f;
+  font-size: 15px;
+  background-color: green;
+}
+
+.text_right {
+  grid-area: x;
+  color: #e6e68f;
+  background-color: green;
+}
+
+.also {
+  grid-area: a;
+  color: #e6e68f;
+  background-color: green;
+}
+
+.footer {
+  grid-area: f;
+  color: #e6e68f;
+  background-color: green;
+}
