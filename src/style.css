@@ -22,6 +22,10 @@
     font-size: 1.7em;
     font-weight: normal;
 }
+.oxfordImage {
+    background-image: url("./assets/oxford.png") !important;
+    background-size: cover !important;
+}
 
 .ui.vertical.stripe {
     padding: 8em 0em;
