@@ -1,13 +1,254 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>Free Code Camp Oxford</title>
-    </head>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-    <body>
-        <h1>FreeCodeCamp Oxford</h1>
-        <ul>
-            <li><a href="profiles/xion-delta">XionDelta</a></li>
-            <li><a href="./profiles/IgnatiusFlo/flo_index.html">IgnatiusFlo</a></li>
-        </ul>
-    </body>
+  <!-- Site Properties -->
+  <title>Homepage - Semantic</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.css">
+  <link rel="stylesheet" href="./src/style.css">
+
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.3.1/dist/semantic.min.js"></script>
+
+  <script
+    type="text/javascript"
+    src="./src/script.js"></script>
+
+</head>
+<body>
+
+<!-- Following Menu -->
+<div class="ui large top fixed hidden menu">
+  <div class="ui container">
+    <a class="active item" href="#home">Home</a>
+    <a class="item" href="#aboutfcc">About freeCodeCamp</a>
+    <a class="item" href="#aboutus">About Us</a>
+    <a class="item" href="#ourpages">Members' pages</a>
+    <div class="right menu">
+      <div class="item">
+        <a class="ui button" href="https://learn.freecodecamp.org">Learn to code</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu">
+  <a class="active item" href="#home">Home</a>
+    <a class="item" href="#aboutfcc">About freeCodeCamp</a>
+    <a class="item" href="#aboutus">About Us</a>
+    <a class="item" href="#ourpages">Members' pages</a>
+  <a class="ui button" href="https://learn.freecodecamp.org">Learn to code</a>
+</div>
+
+
+<!-- Page Contents -->
+<div class="pusher">
+  <div id="home" class="ui oxfordImage inverted vertical masthead center aligned segment">
+    <div class="ui container">
+      <div class="ui large secondary inverted menu">
+        <a class="toc item">
+          <i class="sidebar icon"></i>
+        </a>
+        <a class="item" href="#home">Home</a>
+        <a class="item" href="#aboutfcc">About freeCodeCamp</a>
+        <a class="item" href="#aboutus">About Us</a>
+        <a class="item" href="#ourpages">Members' pages</a>
+        <div class="right item">
+          <a class="ui button" href="https://learn.freecodecamp.org">Learn to code</a>
+        </div>
+      </div>
+    </div>
+    <!-- Welcome text bit -->
+    <div class="ui text container">
+      <h1 class="ui inverted header">
+        freeCodeCamp Oxford
+      </h1>
+      <h2>Global community locally</h2>
+    </div>
+
+  </div>
+  <!-- About FCC part -->
+  <div id="aboutfcc" class="ui vertical stripe segment">
+    <div class="ui middle aligned stackable grid container">
+      <div class="row">
+        <div class="eight wide column">
+          <h3 class="ui header">Learn to code</h3>
+          <p>
+            freeCodeCamp is an open source community that helps you learn to code, build pro bono projects for nonprofits,
+            and get a job as a developer.
+          </p>
+          <h3 class="ui header">Learn, code, create</h3>
+          <p>
+            Join a community of millions of people who are learning new skills together,
+            building their portfolios, and getting developer jobs.
+          </p>
+        </div>
+        <div class="six wide right floated column">
+          <img src="./src/assets/fcc.png" class="ui large bordered rounded image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="center aligned column">
+          <a class="ui huge button" href="https://learn.freecodecamp.org">Start learning</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Us -->
+  <div id="aboutus" class="ui vertical stripe quote segment">
+    <div class="ui equal width stackable internally celled grid">
+      <div class="left aligned row">
+        <div class="column">
+          <h3>About us</h3>
+          <p>
+            We are freeCodeCamp Oxford.
+          </p>
+          <p>
+            Come along to the Makerspace in Oxfordshire County Library if
+            you're interested in learning how to code or are pursuing freeCodeCamp's online course.
+          </p>
+          <p>
+            We can introduce you to freeCodeCamp if you're a complete beginner or if you've been coding
+            for a while use this as a chance to meet other coders, network, or talk about a particular topic
+            of interest.
+          </p>
+          <p>
+            At present we're improving the website and adding personalised pages for freeCodeCamp Oxford so
+            there's a chance to work on a real-life project.
+          </p>
+          <p>
+            If you currently work as a developer or programmer, why not come and give some encouragement to
+            people learning.
+          </p>
+        </div>
+        <div class="column">
+          <h3>Entry Requirements</h3>
+          <div class="center aligned row">
+            <p>
+                <img src="./src/assets/justkidding.png" class="ui image"> <b>There are none!</b>
+            </p>
+          </div>
+          <p>
+            Please simply bring a laptop and your enthusiasm. If you experience problems getting a laptop, we may be
+            able to provide a computer on the day, but please let us know in advance by contacting the library.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Future meetings -->
+  <div class="ui vertical stripe segment">
+    <div class="ui container">
+      <h3 class="ui header">Some of our next meetups are going to happen on these dates:</h3>
+      <h4>As a rule of thumb it's every other Thursday, but these are the ones we are sure of</h4>
+      <div class="ui cards">
+        <!-- To insert a new meeting card -->
+        <!-- Copy the content between this comment... -->
+        <div class="card">
+          <div class="content">
+            <div class="header">Thursday 19th July</div>
+            <div class="meta">County Library, Westgate Centre, Oxford 6-8pm</div>
+            <div class="description">
+              We will be making our personal pages and just generally coding great stuff
+            </div>
+          </div>
+        </div>
+        <!-- ... and this one. the "card" div-->
+        <div class="card">
+          <div class="content">
+            <div class="header">Thursday 2nd August</div>
+            <div class="meta">County Library, Westgate Centre, Oxford 6-8pm</div>
+            <div class="description">
+              We will be making our personal pages and just generally coding great stuff
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="content">
+            <div class="header">Thursday 16th August</div>
+            <div class="meta">County Library, Westgate Centre, Oxford 6-8pm</div>
+            <div class="description">
+              We will be making our personal pages and just generally coding great stuff
+            </div>
+          </div>
+        </div>
+        <p>
+          Feel free to come to all of them, or some. Starting time is also fairly flexible.
+        </p>
+        <p>
+          Unfortunately we always finish at the same time due to the library's working hours.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Some of the beautiful pages we've done -->
+  <div class="ui vertical stripe segment">
+      <div class="ui container">
+        <h3 class="ui header">These are the pages some of our coders have done. Check them out!</h3>
+        <br/>
+        <div class="ui list">
+          <!-- To insert a new profile page -->
+          <!-- Copy the content between this comment... -->
+          <div class="item">
+            <img class="ui avatar image" src="https://avatars0.githubusercontent.com/u/17878487?s=400&v=4">
+            <div class="content">
+              <a class="header">Kate</a>
+              <div class="description"><a href="./profiles/IgnatiusFlo/flo_index.html">IgnatiusFlo</a></div>
+            </div>
+          </div>
+          <!--...and this one -->
+      </div>
+    </div>
+  </div>
+  <!-- Yeah, i don't know what to put here. LOL -->
+  <div class="ui inverted vertical footer segment">
+    <div class="ui container">
+      <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="three wide column">
+          <h4 class="ui inverted header">About</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Sitemap</a>
+            <a href="#" class="item">Contact Us</a>
+            <a href="#" class="item">Make it work, make it right... yeah, not today</a>
+            <a href="#" class="item">Just a blank link to nothing</a>
+          </div>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui inverted header">Services</h4>
+          <div class="ui inverted link list">
+            <a href="#" class="item">Banana Pre-Order</a>
+            <a href="#" class="item">DNA FAQ</a>
+            <a href="#" class="item">How To Access</a>
+            <a href="#" class="item">Favorite Superheroes</a>
+          </div>
+        </div>
+        <div class="seven wide column">
+          <h4 class="ui inverted header">Footer Header</h4>
+          <p>
+            This is just some footer. We couldn't figure out what to put here,
+            so it's some gibberish, just for fun.
+          </p>
+          <p>
+            If you would like a little project, please checkout our
+            <a href="https://trello.com/b/CmNMjNHc/quick-main-website-projects">bug board</a>
+            and submit your PR.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+
 </html>
