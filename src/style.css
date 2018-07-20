@@ -63,6 +63,27 @@
     display: none;
 }
 
+.contact-handles {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.contact-handles li {
+    margin-bottom: 4px;
+}
+
+.contact-handles a i {
+    background-color: lightgray;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 50%;
+    margin: 0px 8px;
+}
+
+.contact-handles a p {
+    display: inline;
+}
+
 @media only screen and (max-width: 700px) {
     .ui.fixed.menu {
     display: none !important;
