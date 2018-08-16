@@ -27,6 +27,13 @@
     background-size: cover !important;
 }
 
+.flex-container {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .ui.vertical.stripe {
     padding: 8em 0em;
 }
