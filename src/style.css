@@ -30,6 +30,8 @@
 .flex-container {
     display: flex;
     flex-flow: row;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .ui.vertical.stripe {
