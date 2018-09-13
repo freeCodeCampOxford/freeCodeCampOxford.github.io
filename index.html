@@ -8,32 +8,22 @@
 
   <!-- Site Properties -->
   <title>Homepage - Semantic</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
   <link rel="stylesheet" href="./src/style.css">
 
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
-
-  <script
-    type="text/javascript"
-    src="./src/script.js"></script>
-
 </head>
-<body>
+<body data-spy="scroll" data-target="#scrollspy-area">
 
 <!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-  <div class="ui container">
-    <a class="active item" href="#home">Home</a>
-    <a class="item" href="#aboutfcc">About freeCodeCamp</a>
-    <a class="item" href="#aboutus">About Us</a>
-    <a class="item" href="#meetups">Meetups</a>
-    <a class="item" href="#ourpages">Members' pages</a>
+<div class="ui large top fixed hidden menu" id="scrollspy-area">
+  <div class="ui container" id="navlink-list">
+    <a class="item" href="#home">Home</a>
+    <a class="item fcc-link-item" href="#aboutfcc">About freeCodeCamp</a>
+    <a class="item aboutus-link-item" href="#aboutus">About Us</a>
+    <a class="item meetups-link-item" href="#meetups">Meetups</a>
+    <a class="item ourpages-link-item" href="#ourpages">Members' pages</a>
     <div class="right menu">
       <div class="item">
         <a class="ui button" href="https://learn.freecodecamp.org" target="_blank" rel="noopener">Learn to code</a>
@@ -61,7 +51,7 @@
         <a class="toc item">
           <i class="sidebar icon"></i>
         </a>
-        <a class="item" href="#home">Home</a>
+        <a class="item home-link-item" href="#home">Home</a>
         <a class="item" href="#aboutfcc">About freeCodeCamp</a>
         <a class="item" href="#aboutus">About Us</a>
         <a class="item" href="#meetups">Meetups</a>
@@ -276,6 +266,18 @@
     </div>
   </div>
 </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.js"></script>
+  <script
+      type="text/javascript"
+      src="./src/script.js">
+  </script>
 
 </body>
 
