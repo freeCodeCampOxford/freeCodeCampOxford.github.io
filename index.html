@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- Site Properties -->
-    <title>Homepage - Semantic</title>
+    <title>Homepage</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
           integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
@@ -28,35 +28,36 @@
 <body>
 
 <!-- Following Menu -->
-<div class="ui large top fixed hidden menu">
-    <div class="ui container">
+
+    <div class="ui large top fixed hidden menu">
+        <div class="ui container">
+            <a class="active item" href="#home">Home</a>
+            <a class="item" href="#aboutfcc">About freeCodeCamp</a>
+            <a class="item" href="#aboutus">About Us</a>
+            <a class="item" href="#meetups">Meetups</a>
+            <a class="item" href="#ourpages">Members' pages</a>
+            <div class="right menu">
+                <div class="item">
+                    <a class="ui button" href="https://learn.freecodecamp.org" target="_blank" rel="noopener">Learn to
+                        code</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar Menu -->
+    <div class="ui vertical inverted sidebar menu">
         <a class="active item" href="#home">Home</a>
         <a class="item" href="#aboutfcc">About freeCodeCamp</a>
         <a class="item" href="#aboutus">About Us</a>
         <a class="item" href="#meetups">Meetups</a>
         <a class="item" href="#ourpages">Members' pages</a>
-        <div class="right menu">
-            <div class="item">
-                <a class="ui button" href="https://learn.freecodecamp.org" target="_blank" rel="noopener">Learn to
-                    code</a>
-            </div>
-        </div>
+        <a class="ui button" href="https://learn.freecodecamp.org" target="_blank" rel="noopener">Learn to code</a>
     </div>
-</div>
-
-<!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu">
-    <a class="active item" href="#home">Home</a>
-    <a class="item" href="#aboutfcc">About freeCodeCamp</a>
-    <a class="item" href="#aboutus">About Us</a>
-    <a class="item" href="#meetups">Meetups</a>
-    <a class="item" href="#ourpages">Members' pages</a>
-    <a class="ui button" href="https://learn.freecodecamp.org" target="_blank" rel="noopener">Learn to code</a>
-</div>
 
 <!-- Page Contents -->
 <div class="pusher">
-    <div id="home" class="ui oxfordImage inverted vertical masthead center aligned segment">
+    <div id="home" class="ui oxfordImage inverted vertical masthead center aligned segment" title="street in oxford">
         <div class="ui container">
             <div class="ui large secondary inverted menu">
                 <a class="toc item">
@@ -77,8 +78,11 @@
         <div class="ui text container">
             <h1 class="ui inverted header">
                 freeCodeCamp Oxford
+                <div class="sub header">
+                    Global community locally
+                </div>
             </h1>
-            <h2>Global community locally</h2>
+
         </div>
 
     </div>
@@ -118,7 +122,7 @@
         <div class="ui grid equal width stackable internally container">
             <div class="row">
                 <div class="column">
-                    <h3>About us</h3>
+                    <h3 class="ui header">About us</h3>
                     <p>
                         We are freeCodeCamp Oxford.
                     </p>
@@ -140,11 +144,15 @@
                         people learning.
                     </p>
                 </div>
-                <div class="center aligned column">
-                    <h3>Entry Requirements</h3>
-                    <p>
-                        <img src="./src/assets/justkidding.png" class="ui image centered"> <b>There are none!</b>
-                    </p>
+                <div class="column">
+                    <h3 class="ui header">Entry Requirements</h3>
+                    <div class="ui center aligned">
+                        <img src="./src/assets/justkidding.png" class="ui centered image"
+                             alt="suprised dog with 'just kidding' written above">
+                        <p class="centered">
+                            <b>There are none!</b>
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -222,7 +230,8 @@
             <!-- To insert a new profile page -->
             <!-- Copy the content between this comment... -->
             <div class="item">
-                <img class="ui avatar image" src="https://avatars0.githubusercontent.com/u/17878487?s=400&v=4">
+                <img class="ui avatar image" src="https://avatars0.githubusercontent.com/u/17878487?s=400&v=4"
+                     alt="github icon of ignatusflo">
                 <div class="content">
                     <a class="header">Kate</a>
                     <div class="description"><a href="./src/profiles/IgnatiusFlo/flo_index.html">IgnatiusFlo</a></div>
@@ -289,6 +298,7 @@
                             <p>Facebook</p>
                         </a>
                     </li>
+                </ul>
             </div>
         </div>
     </div>
