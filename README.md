@@ -11,7 +11,7 @@ Welcome to the freeCodeCampOxford website repository. If you would like to contr
 
 <a name="git"></a>
 ## 1. Git
-![Git](/images/branching.png)
+![Git](https://git-scm.com/book/en/v2/images/basic-branching-1.png)
 <a name="some-git-rules"></a>
 
 ### 1 Some Git rules
