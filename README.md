@@ -18,16 +18,16 @@ Welcome to the freeCodeCampOxford website repository. If you would like to contr
 There are a set of rules to keep in mind:
 * Perform work in a feature branch.
 
-    _Why:_
+    _Why?_
     >Because this way all work is done in isolation on a dedicated branch rather than the main branch. It allows you to submit multiple pull requests without confusion. You can iterate without polluting the master branch with potentially unstable, unfinished code. [read more...](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow)
 * Branch out from `develop`
 
-    _Why:_
+    _Why?_
     >This way, you can make sure that code in master will almost always build without problems, and can be mostly used directly for releases (this might be overkill for some projects).
 
 * Never push into `develop` or `master` branch. Make a Pull Request.
 
-    _Why:_
+    _Why?_
     > It notifies team members that they have completed a feature. It also enables easy peer-review of the code and dedicates forum for discussing the proposed feature.
 
 ### 1.1 freeCodeCamp Oxford Git workflow
@@ -55,7 +55,7 @@ There are a set of rules to keep in mind:
     git pull
     ```
 
-    _Why:_
+    _Why?_
     > This will give you a chance to deal with conflicts on your machine before submitting a Pull Request.
 
 * If you don’t have conflict skip this step. If you have conflicts, [resolve them](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/).
@@ -80,19 +80,19 @@ Having a good guideline for creating commits and sticking to it makes working wi
 
  * Separate the subject from the body with a newline between the two.
 
-    _Why:_
+    _Why?_
     > Git is smart enough to distinguish the first line of your commit message as your summary. In fact, if you try git shortlog, instead of git log, you will see a long list of commit messages, consisting of the id of the commit, and the summary only.
 
  * Limit the subject line to 50 characters and Wrap the body at 72 characters.
 
-    _why_
+    _why?_
     > Commits should be as fine-grained and focused as possible, it is not the place to be verbose. [read more...](https://medium.com/@preslavrachev/what-s-with-the-50-72-rule-8a906f61f09c)
 
  * Capitalize the subject line.
  * Do not end the subject line with a period.
  * Use [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood) in the subject line.
 
-    _Why:_
+    _Why?_
     > Rather than writing messages that say what a committer has done. It's better to consider these messages as the instructions for what is going to be done after the commit is applied on the repository. [read more...](https://news.ycombinator.com/item?id=2079612)
 
 
